@@ -25,12 +25,17 @@ src/
 │   ├── load/         # File parsers and dataset loaders
 │   ├── report/       # Report generators (HTML, Markdown, TXT)
 │   └── statistics/   # Statistical calculation modules
-└── test/java/
-    ├── TestDomainCreator.java
-    ├── TestDomainEngineConnector.java
-    ├── TestLoader.java
-    ├── TestReport.java
-    └── TestStatistics.java
+└── test/
+    ├── java/
+    │   ├── TestDomainCreator.java
+    │   ├── TestDomainEngineConnector.java
+    │   ├── TestLoader.java
+    │   ├── TestReport.java
+    │   └── TestStatistics.java
+    └── resources/
+        ├── input/                # Sample disaster datasets for testing
+        ├── output/               # Expected report outputs for test assertions
+        └── analysisTests.xlsx    # Test cases design & specification
 lib/                  # External dependencies (JUnit)
 ```
 

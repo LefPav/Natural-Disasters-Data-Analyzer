@@ -7,11 +7,11 @@ A modular Java application designed to load, process, analyze, and generate stat
 * **Data Ingestion:** Parses and loads structured natural disaster records into domain objects.
 * **Statistical Analysis:** Computes aggregated metrics and insights across disaster types, regions, and timeframes.
 * **Multi-Format Reporting:** Exports analysis results into **HTML**, **Markdown (`.md`)**, and **Plain Text (`.txt`)** reports.
-* **Unit Tested:** Includes a dedicated test suite under `src/test` to verify core engine and reporting functionality.
+* **Comprehensive Unit Testing:** Includes dedicated JUnit test suites covering data loading, domain creation, engine integration, statistics, and report generation.
 
 ## Architecture & Project Structure
 
-The codebase separates presentation, business logic, data loading, and reporting into distinct packages:
+The codebase separates presentation, business logic, data loading, reporting, and testing into distinct modules:
 
 ```text
 src/
@@ -25,8 +25,13 @@ src/
 │   ├── load/         # File parsers and dataset loaders
 │   ├── report/       # Report generators (HTML, Markdown, TXT)
 │   └── statistics/   # Statistical calculation modules
-└── test/             # Unit tests
-lib/                  # External dependencies (e.g., JUnit)
+└── test/java/
+    ├── TestDomainCreator.java
+    ├── TestDomainEngineConnector.java
+    ├── TestLoader.java
+    ├── TestReport.java
+    └── TestStatistics.java
+lib/                  # External dependencies (JUnit)
 ```
 
 ## Getting Started
@@ -46,6 +51,9 @@ lib/                  # External dependencies (e.g., JUnit)
    java -cp "bin:lib/*" app.<MainClassName>
    ```
    *(Replace `<MainClassName>` with the main class inside the `app` package.)*
+
+### Running the Tests
+In **Eclipse**, right-click on `src/test/java` and select **Run As > JUnit Test** to execute all 5 test suites.
 
 ## Sample Output
 

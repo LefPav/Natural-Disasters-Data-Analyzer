@@ -49,7 +49,7 @@ lib/                  # External dependencies (JUnit)
 ### Running the Application
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/natural-disasters-analyzer.git
+   git clone https://github.com/LefPav/Natural-Disasters-Data-Analyzer.git
    ```
 2. Open the project in **Eclipse** (`File > Open Projects from File System...`) or compile via terminal including the libraries in `lib/`:
    ```bash

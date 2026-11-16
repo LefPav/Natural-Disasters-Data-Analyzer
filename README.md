@@ -1,6 +1,7 @@
 # Natural Disasters Data Analyzer
 
 A modular Java application designed to load, process, analyze, and generate statistical reports on historical natural disasters data. Developed as a team software engineering project following layered architecture principles and object-oriented design patterns.
+
 Developed as part of the Object-Oriented Programming Techniques university course.
 ## Key Features
 

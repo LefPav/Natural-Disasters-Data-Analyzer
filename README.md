@@ -9,6 +9,7 @@ Developed as part of the Object-Oriented Programming Techniques university cours
 * **Statistical Analysis:** Computes aggregated metrics and insights across disaster types, regions, and timeframes.
 * **Multi-Format Reporting:** Exports analysis results into **HTML**, **Markdown (`.md`)**, and **Plain Text (`.txt`)** reports.
 * **Comprehensive Unit Testing:** Includes dedicated JUnit test suites covering data loading, domain creation, engine integration, statistics, and report generation.
+* **Graphical User Interface (GUI):** Provides an interactive desktop interface for loading datasets, running analyses, and exporting reports.
 
 ## Architecture & Project Structure
 
